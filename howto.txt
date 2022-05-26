@@ -1,0 +1,9 @@
+* Dézipper le fichier et se mettre dans le dossier dézippé
+
+* Ouvrir un terminal
+
+* Lancer la commande :
+
+python3 Analyseur.py <nom_du_fichier_trame>
+
+* Attention : Il faut que le fichier contenant la trame soit dans le même dossier que Analyseur.py.

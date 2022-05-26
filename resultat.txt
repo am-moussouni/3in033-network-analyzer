@@ -1,0 +1,176 @@
+‣ Ethernet II
+	‣ Destination address: 00:20:ed:87:fd:e6
+	‣ Source address: 00:07:e9:0c:90:62
+	‣ Type: IP Datagram (0x0800)
+
+‣ Internet Protocol Version 4 (IPv4)
+	‣ Version: 4
+	‣ IHL: 20 octets (0x5)
+	‣ Type of service: 0x00
+	‣ Total length: 207
+	‣ Identification: 0x2a2d (10797)
+	‣ Flags:
+		‣ Reserved bit: 0
+		‣ Don't fragment: 0
+		‣ More fragment: 0
+	‣ Fragment offset: 0x0 (0)
+	‣ TTL: 63
+	‣ Protocol: UDP (17)
+	‣ Header checksum: 0xbfae
+	‣ Source address: 132.227.74.2
+	‣ Destination address: 132.227.61.122
+
+‣ User Datagram Protocol (UDP)
+	‣ Source port: 53
+	‣ Destination port: 34053
+	‣ Length: 187
+	‣ Checksum: 0xa13b
+
+‣ Domain Name System (DNS)
+	‣ Identifier: 0xa071
+	‣ Flags: 0x8580
+	‣ Number of questions: 1
+	‣ Number of answer RRs: 2
+	‣ Number of authority RRs: 3
+	‣ Number of additional RRs: 3
+	‣ Queries
+		‣ Name: www.lip6.fr
+			‣ Type: A
+			‣ Class: IN
+	‣ Answers
+		‣ Name: www.lip6.fr
+			‣ Type: CNAME
+			‣ Class: IN
+			‣ TTL: 21600s
+			‣ Data length: 8 bytes
+			‣ Data: horus.lip6.fr
+		‣ Name: horus.lip6.fr
+			‣ Type: A
+			‣ Class: IN
+			‣ TTL: 21600s
+			‣ Data length: 4 bytes
+			‣ Data: 132.227.60.13
+	‣ Authoritative nameservers
+		‣ Name: lip6.fr
+			‣ Type: NS
+			‣ Class: IN
+			‣ TTL: 21600s
+			‣ Data length: 7 bytes
+			‣ Data: isis.lip6.fr
+		‣ Name: lip6.fr
+			‣ Type: NS
+			‣ Class: IN
+			‣ TTL: 21600s
+			‣ Data length: 9 bytes
+			‣ Data: osiris.lip6.fr
+		‣ Name: lip6.fr
+			‣ Type: NS
+			‣ Class: IN
+			‣ TTL: 21600s
+			‣ Data length: 14 bytes
+			‣ Data: soleil.uvsq.fr
+	‣ Additional records
+		‣ Name: isis.lip6.fr
+			‣ Type: A
+			‣ Class: IN
+			‣ TTL: 21600s
+			‣ Data length: 4 bytes
+			‣ Data: 132.227.60.2
+		‣ Name: osiris.lip6.fr
+			‣ Type: A
+			‣ Class: IN
+			‣ TTL: 21600s
+			‣ Data length: 4 bytes
+			‣ Data: 132.227.60.30
+		‣ Name: soleil.uvsq.fr
+			‣ Type: A
+			‣ Class: IN
+			‣ TTL: 71371s
+			‣ Data length: 4 bytes
+			‣ Data: 193.51.24.1
+
+-----------------------------------------------------------------
+
+‣ Ethernet II
+	‣ Destination address: ff:ff:ff:ff:ff:ff
+	‣ Source address: 00:1c:c0:e8:23:21
+	‣ Type: IP Datagram (0x0800)
+
+‣ Internet Protocol Version 4 (IPv4)
+	‣ Version: 4
+	‣ IHL: 20 octets (0x5)
+	‣ Type of service: 0x00
+	‣ Total length: 328
+	‣ Identification: 0xc872 (51314)
+	‣ Flags:
+		‣ Reserved bit: 0
+		‣ Don't fragment: 0
+		‣ More fragment: 0
+	‣ Fragment offset: 0x0 (0)
+	‣ TTL: 128
+	‣ Protocol: UDP (17)
+	‣ Header checksum: 0x7133
+	‣ Source address: 0.0.0.0
+	‣ Destination address: 255.255.255.255
+
+‣ User Datagram Protocol (UDP)
+	‣ Source port: 68
+	‣ Destination port: 67
+	‣ Length: 308
+	‣ Checksum: 0xb2e3
+
+‣ Dynamic Host Configuration Protocol (DHCP)
+	‣ Message type: Boot Request (1)
+	‣ Hardware type: Ethernet (0x01)
+	‣ Hardware adress length: 6
+	‣ Hops: 0
+	‣ Transaction ID: 0xa27af44c
+	‣ Seconds elapsed: 0
+	‣ Bootp flags: 0x0000 (Unicast)
+	‣ Client IP address: 0.0.0.0
+	‣ Your (client) IP address: 0.0.0.0
+	‣ Next server IP address: 0.0.0.0
+	‣ Relay agent IP address: 0.0.0.0
+	‣ Client MAC address: 00:1c:c0:e8:23:21
+	‣ Server host name: not given
+	‣ Boot file name: not given
+	‣ Magic cookie: DHCP
+	‣ Option: (53) DHCP message type
+		‣ Length: 1 bytes
+		‣ Message type: Discover
+	‣ Option: (116) DHCP auto-configuration
+		‣ Length: 1 bytes
+		‣ Auto-configuration: enabled (1)
+	‣ Option: (61) Client identifier
+		‣ Length: 7 bytes
+		‣ Hardware type: Ethernet (0x01)
+		‣ Client MAC address: 00:1c:c0:e8:23:21
+	‣ Option: (50) Requested IP address
+		‣ Length: 4 bytes
+		‣ Requested IP address: 172.16.20.104
+	‣ Option: (12) Host name
+		‣ Length: 9 bytes
+		‣ Host name: KFICT-L31
+	‣ Option: (60) Vendor class identfier
+		‣ Length: 8 bytes
+		‣ Vendor class identifier: MSFT 5.0
+	‣ Option: (55) Parameter request list
+		‣ Length: 11 bytes
+		‣ Parameter Request List Item: (1) Subnet mask
+		‣ Parameter Request List Item: (15) Domain name
+		‣ Parameter Request List Item: (3) Router
+		‣ Parameter Request List Item: (6) Domain name server
+		‣ Parameter Request List Item: (44) NetBIOS over TCP/IP name server
+		‣ Parameter Request List Item: (46) NetBIOS over TCP/IP node type
+		‣ Parameter Request List Item: (47) NetBIOS over TCP/IP scope
+		‣ Parameter Request List Item: (31) Perform router discover
+		‣ Parameter Request List Item: (33) Static route
+		‣ Parameter Request List Item: (249) Reserved for private use
+		‣ Parameter Request List Item: (43) Vendor-specific information
+	‣ Option: (43) Vendor-specific information
+		‣ Length: 2 bytes
+		‣ Information: 0xdc00
+	‣ Option: (255) End
+
+-----------------------------------------------------------------
+
